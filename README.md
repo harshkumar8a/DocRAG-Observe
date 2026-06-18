@@ -3,6 +3,10 @@
 Production‑ready RAG (Retrieval‑Augmented Generation) pipeline with full observability, evaluation, and multi‑PDF support.
 Built with Ollama, Pinecone, and LangSmith – designed for real‑world document Q&A.
 
+<img width="1296" height="460" alt="docs-rag" src="https://github.com/user-attachments/assets/6498c123-d05a-4cb4-bbf8-cafd222ac973" />
+
+
+
 ## 🚀 Features
 
 1. 📄 Robust PDF parsing – uses pdfplumber by default (memory‑safe); optional Docling for small PDFs.
