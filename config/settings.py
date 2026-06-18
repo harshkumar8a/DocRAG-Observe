@@ -10,6 +10,7 @@ BASE_DIR = Path(r"D:\3_Machine learning\GenAI\DocRAG-Observe")
 DOCUMENTS_DIR = BASE_DIR / "documents"
 OUTPUT_DIR = BASE_DIR / "output"
 TRACKER_PATH = BASE_DIR / "embedding_tracker.json"
+METRIX_PATH = BASE_DIR / "metrics.json"
 
 # CONFIGURATION
 EMBEDDING_TRACKER_PATH = Path(r"D:\3_Machine learning\GenAI\DocRAG-Observe\embedding_tracker.json")
@@ -18,7 +19,7 @@ EMBEDDING_TRACKER_PATH = Path(r"D:\3_Machine learning\GenAI\DocRAG-Observe\embed
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL")
 OLLAMA_EMBED_MODEL = os.getenv("OLLAMA_EMBEDDING_MODEL")      # Embedding model (768-dim)
 OLLAMA_LLM_MODEL = os.getenv("OLLAMA_CHAT_MODEL")                # Generation model
-OLLAMA_TIMEOUT = 1200  # seconds
+OLLAMA_TIMEOUT = 12000  # seconds
 
 # Pinecone Settings 
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
@@ -35,8 +36,8 @@ CHILD_CHUNK_SIZE = 128        # tokens
 OVERLAP_FRACTION = 0.2        # 20% overlap between children
 
 # Retrieval Settings 
-TOP_K_RETRIEVE = 10           # Initial retrieval count from Pinecone
-TOP_K_RERANK = 5              # After cross-encoder reranking
+TOP_K_RETRIEVE = 4         # Initial retrieval count from Pinecone
+TOP_K_RERANK = 3              # After cross-encoder reranking
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 # PII Settings 
