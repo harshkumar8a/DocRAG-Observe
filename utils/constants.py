@@ -1,0 +1,6 @@
+METADATA_TEXT = "text"
+METADATA_CHUNK_TYPE = "chunk_type"
+METADATA_PARENT_ID = "parent_id"
+METADATA_CHUNK_ID = "chunk_id"
+CHUNK_TYPE_PARENT = "parent"
+CHUNK_TYPE_CHILD = "child"
