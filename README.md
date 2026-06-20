@@ -65,7 +65,7 @@ Built with Ollama, Pinecone, and LangSmith – designed for real‑world documen
 ## 🔧 Installation
 
     # Clone the repository
-    git clone https://github.com/yourusername/DocRAG-Observe.git
+    git clone https://github.com/harshkumar8a/DocRAG-Observe.git
     cd DocRAG-Observe
 
     # Create virtual environment
